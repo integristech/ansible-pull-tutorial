@@ -1,10 +1,10 @@
 - hosts: localhost
-connection: local
-become: true
+  connection: local
+  become: true
 
-tasks:
-- name: Install packages
-  apt:
-    name: 
-      - htop
-      - cows
+  tasks:
+  - name: Install packages
+    apt:
+      name: 
+        - htop
+
